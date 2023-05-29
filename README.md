@@ -41,8 +41,8 @@
 
 |        Link         |  Command  |
 |---------------------|-------------------|
-| via WGET | `bash -c "$(wget -qO- https://raw.githubusercontent.com/givpn/aio/main/xray)"` |
-| via CURL | `bash -c "$(curl -fsSL https://raw.githubusercontent.com/givpn/aio/main/xray)"` |
+| via WGET | `bash -c "$(wget -qO- https://raw.githubusercontent.com/givpn/aio/master/xray)"` |
+| via CURL | `bash -c "$(curl -fsSL https://raw.githubusercontent.com/givpn/aio/master/xray)"` |
 
 # Screenshot
 ![ss](https://raw.githubusercontent.com/dugong-lewat/autoscript/main/xray.jpg)
