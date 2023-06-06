@@ -45,7 +45,6 @@
 | HTTP  | 8080, 8880, 2052, 2082, 2086, 2095 |
 
 # Setup DNS Cloudflare
-- `setup DNS Cloudflare like this`
 ![cf](https://raw.githubusercontent.com/dugong-lewat/autoscript/main/cf.jpg)
 
 # Screenshot
