@@ -70,5 +70,3 @@ bash -c "$(curl -fsSL https://raw.githubusercontent.com/givpn/aio/master/xray)"
 
 # LICENSE
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-
-# original by https://github.com/dugong-lewat/autoscript
