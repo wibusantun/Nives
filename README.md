@@ -47,11 +47,11 @@
 # Installation
 - via WGET
 ```
-bash -c "$(wget -qO- https://raw.githubusercontent.com/givpn/aio/master/xray)"
+bash -c "$(wget -qO- https://raw.githubusercontent.com/wibusantun/Nives/refs/heads/master/xray)"
 ```
 - via CURL
 ```
-bash -c "$(curl -fsSL https://raw.githubusercontent.com/givpn/aio/master/xray)"
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/wibusantun/Nives/refs/heads/master/xray)"
 ```
 
 # LICENSE
