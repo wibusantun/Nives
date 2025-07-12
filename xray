@@ -63,7 +63,7 @@ clear
 curl -s https://packagecloud.io/install/repositories/ookla/speedtest-cli/script.deb.sh | sudo bash
 sudo apt-get install speedtest
 clear
-ln -fs /usr/share/zoneinfo/Asia/Jakarta /etc/localtime
+ln -fs /usr/share/zoneinfo/Asia/Singapore /etc/localtime
 apt install nginx -y
 rm /var/www/html/*.html
 rm /etc/nginx/sites-enabled/default
@@ -98,9 +98,9 @@ bash acme.sh --issue -d $domain --server letsencrypt --keylength ec-256 --fullch
 clear
 echo -e "${GB}[ INFO ]${NC} ${YB}Setup Nginx & Xray Conf${NC}"
 echo "UQ3w2q98BItd3DPgyctdoJw4cqQFmY59ppiDQdqMKbw=" > /usr/local/etc/xray/serverpsk
-wget -q -O /usr/local/etc/xray/config.json https://raw.githubusercontent.com/givpn/aio/master/other/config.json
-wget -q -O /etc/nginx/nginx.conf https://raw.githubusercontent.com/givpn/aio/master/other/nginx.conf
-wget -q -O /etc/nginx/conf.d/xray.conf https://raw.githubusercontent.com/givpn/aio/master/other/xray.conf
+wget -q -O /usr/local/etc/xray/config.json https://raw.githubusercontent.com/wibusantun/Nives/refs/heads/master/other/config.json
+wget -q -O /etc/nginx/nginx.conf https://raw.githubusercontent.com/wibusantun/Nives/refs/heads/master/other/nginx.conf
+wget -q -O /etc/nginx/conf.d/xray.conf https://raw.githubusercontent.com/wibusantun/Nives/refs/heads/master/other/xray.conf
 systemctl restart nginx
 systemctl restart xray
 echo -e "${GB}[ INFO ]${NC} ${YB}Setup Done${NC}"
